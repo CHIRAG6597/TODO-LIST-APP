@@ -1,15 +1,98 @@
-.App {
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #12419e66;
+  }
+  
+  .title {
     font-family: sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  }
+
+  .stats-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    color: white;
+    margin-bottom: 2rem;
   }
   
-  input {
-    padding: 10px;
-    margin-right: 10px;
+  .progress-circle {
+    background-color: #8cc63f;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .task-input {
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
   }
   
-  button {
-    padding: 10px;
-    margin-left: 5px;
+  .task-input input {
+    flex: 1;
+    padding: 1rem;
+    background-color: #1e2a38;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    outline: none;
   }
+  
+  .task-input button {
+    background-color: #8cc63f;
+    border: none;
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+  }
+
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    background-color: #1e2a38;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+  }
+  
+  .task.done span {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .task .buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
