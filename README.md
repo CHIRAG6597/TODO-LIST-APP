@@ -1,39 +1,39 @@
-# 📝 To-Do List App
+# ✅ To-Do List App
 
-A simple and clean React-based To-Do List application with local storage support to manage your daily tasks efficiently.
+A simple and efficient to-do list application built using React that allows users to manage their daily tasks easily.
 
 ## 🔧 Tech Stack
 - React.js
-- LocalStorage API
 - HTML/CSS
+- JavaScript
+- LocalStorage API
 
 ## ✨ Features
-- Add new tasks
-- Edit and delete tasks
+- Add and delete tasks
 - Mark tasks as completed
-- Track task completion percentage
-- Tasks are saved using browser's localStorage
-- Responsive and intuitive UI
+- Progress indicator with percentage completed
+- Tasks saved in local storage (data persists after refresh)
+- Clean and responsive UI
 
 ## 🔗 Live Demo
-👉 [todo-list-myreact-app-chirag.netlify.app](https://todo-list-myreact-app-chirag.netlify.app)
+[todo-list-myreact-app-chirag.netlify.app](https://todo-list-myreact-app-chirag.netlify.app)
 
 ## 📸 Screenshot
-<!-- You can upload a screenshot here later -->
-![Weather App Screenshot](Screenshot.png)
-![Weather App Screenshot](Screenshot1.png)
+![To-Do App Screenshot](./public/todo-app-screenshot.png)  
+*(Make sure the screenshot is placed in the `public/` folder and named as above or update the path.)*
 
 ## 📁 Folder Structure
-- `App.jsx`: Main logic and layout
-- `components/`: Contains all UI components like TaskInput, TaskList, TaskItem, StatsBox
-- `styles.css`: All custom styles
+- `App.jsx` – Root component that holds app layout and state
+- `AddTodo.jsx` – Handles input and adding new tasks
+- `TodoItem.jsx` – Represents a single task item
+- `TodoList.jsx` – Renders the list of todo items
+- `StatsBox.jsx` – Shows total and completed task stats
 
-## 🧠 Concepts Used
-- useState, useEffect
-- Passing props between components
-- Lifting state up
-- Controlled components
-- localStorage for persistence
+## 🧠 Learning Highlights
+- React hooks: `useState`, `useEffect`
+- Local storage handling in React
+- Conditional rendering
+- Component-based architecture
 
 ## 📬 Contact
 **H M Chirag**  
